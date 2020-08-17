@@ -1,0 +1,8 @@
+header{
+    background: black;
+}
+
+nav,a{
+    color:white;
+    border: solid 1px white;
+}
