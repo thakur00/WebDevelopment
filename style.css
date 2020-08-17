@@ -1,8 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 header{
     background: black;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
 }
+
+
 
 nav,a{
     color:white;
     border: solid 1px white;
+}
+
+nav{
+    width: 50%;
+
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+li{
+    border-right: solid 1px white;
+    border-left: solid 1px white;
+    padding-right: 50px;
+    padding-left: 50px;
 }
